@@ -1,0 +1,98 @@
+/* Custom Stylesheet */
+
+@font-face {
+  font-family: NinhaTitleFont;
+  src: url('../fonts/a_pompadour_bold.ttf');
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #444;
+}
+
+.parallax-container.index-banner-container {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  height: calc(100vh);
+
+  /*
+  background-image: url("../img/ninha_parallax_1.jpg");
+  background-position: center top;
+  background-size: cover;
+  */
+}
+
+.index-banner-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.index-banner-logo {
+  max-width: 400px;
+}
+
+.index-banner-secondary-text-container {
+  max-width: 600px;
+}
+
+.parallax-text {
+  font-weight: 500;
+}
+
+.about-us-text {
+  text-align: center;
+}
+
+.products-carousel {
+  padding-top: 50px;
+  margin-bottom: -20px;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
